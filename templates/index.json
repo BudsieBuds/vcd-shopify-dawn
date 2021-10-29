@@ -101,11 +101,21 @@
         "button_link": "",
         "swipe_on_mobile": true
       }
+    },
+    "16354793646fd29834": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
+      }
     }
   },
   "order": [
     "image_banner",
     "16354709973c1e6d0d",
-    "multi_column"
+    "multi_column",
+    "16354793646fd29834"
   ]
 }
