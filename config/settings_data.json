@@ -1,15 +1,17 @@
 {
   "current": {
-    "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#502424",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#43727c",
     "colors_accent_2": "#43727c",
     "colors_text": "#000000",
     "colors_outline_button_labels": "#43727c",
     "colors_background_1": "#FFFFFF",
     "colors_background_2": "#F3F3F3",
     "type_header_font": "pt_serif_n4",
-    "heading_scale": 100,
+    "heading_scale": 105,
     "type_body_font": "futura_n4",
+    "body_scale": 105,
+    "sale_badge_color_scheme": "accent-2",
     "accent_icons": "text",
     "social_facebook_link": "https:\/\/www.facebook.com\/visserchocoladedeurne",
     "social_instagram_link": "https:\/\/www.instagram.com\/visserchocoladedeurne",
@@ -44,7 +46,7 @@
             "type": "text",
             "settings": {
               "heading": "Visser Chocolade Deurne",
-              "subtext": "<p>Stationsstraat 6, 5751 HE, Deurne<\/p>"
+              "subtext": "<p>Stationsstraat 6, <br\/>5751 HE, Deurne<br\/><br\/>info@visserchocoladedeurne.nl<\/p>"
             }
           }
         },
