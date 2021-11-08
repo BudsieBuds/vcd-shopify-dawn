@@ -75,8 +75,8 @@
       "type": "featured-collection",
       "settings": {
         "title": "Sinterklaas",
-        "collection": "sinterklaas-letters",
-        "products_to_show": 8,
+        "collection": "sinterklaas-chocolade",
+        "products_to_show": 10,
         "show_view_all": true,
         "swipe_on_mobile": true,
         "image_ratio": "adapt",
