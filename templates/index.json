@@ -58,11 +58,12 @@
         "16363800534cafab08-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We hebben een ruime keuze aan heerlijke luxe chocolade letters voor u geselecteerd. <br\/><br\/>• Maak een keuze uit een van de vele smaken<br\/>• Selecteer bij opties de letter welke je graag wil bestellen<br\/>• Controleer je bestelling<br\/>• Betaal gemakkelijk online<br\/>• Ontvang een e-mail wanneer jouw bestelling klaar ligt om opgehaald te worden<br\/><em>Laatste stap: Smullen maar!!<\/em><\/p>"
+            "text": "<p>We hebben een ruime keuze aan heerlijke luxe chocolade letters voor u geselecteerd. <br\/><br\/>• Kies je favoriete smaken & letters<br\/>• Controleer je bestelling<br\/>• Betaal gemakkelijk online<br\/>• Ontvang een e-mail wanneer jouw bestelling klaar ligt om opgehaald te worden<br\/><br\/><em>Laatste stap: Smullen maar!!<\/em><\/p>"
           }
         },
         "16363800534cafab08-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
