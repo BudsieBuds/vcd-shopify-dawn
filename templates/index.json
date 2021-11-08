@@ -6,18 +6,19 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Heerlijke Chocolade Letters!",
+            "heading": "Click & collect",
             "heading_size": "medium"
           }
         },
         "69d5a284-a558-420f-891c-6892b6308619": {
           "type": "text",
           "settings": {
-            "text": "Bestel en betaal online, ontvang een e-mail wanneer je bestelling klaar is om opgehaald te worden. We zullen zsm extra collect-openingstijden in de avonden bekendmaken."
+            "text": "We hebben een ruime keuze aan heerlijke luxe chocolade letters voor u geselecteerd."
           }
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Click & collect",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -47,10 +48,10 @@
     },
     "16363800534cafab08": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "16363800534cafab08-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Click & collect",
             "heading_size": "h1"
@@ -59,7 +60,7 @@
         "16363800534cafab08-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We hebben een ruime keuze aan heerlijke luxe chocolade letters voor u geselecteerd. <br\/><br\/>• Kies je favoriete smaken & letters<br\/>• Controleer je bestelling<br\/>• Betaal gemakkelijk online<br\/>• Ontvang een e-mail wanneer jouw bestelling klaar ligt om opgehaald te worden<br\/><br\/><em>Laatste stap: Smullen maar!!<\/em><\/p>"
+            "text": "<p>• Kies je favoriete smaken & letters<br\/>• Controleer je bestelling<br\/>• Betaal gemakkelijk online<br\/>• Ontvang een e-mail wanneer jouw bestelling klaar ligt om opgehaald te worden<br\/><br\/><em>Laatste stap: Smullen maar!!<\/em><\/p>"
           }
         },
         "16363800534cafab08-2": {
@@ -78,7 +79,7 @@
         "16363800534cafab08-2"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "full_width": true
       }
     },
