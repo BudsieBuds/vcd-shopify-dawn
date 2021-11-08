@@ -13,7 +13,7 @@
         "69d5a284-a558-420f-891c-6892b6308619": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "Bestel en betaal online, ontvang een e-mail wanneer je bestelling klaar is om opgehaald te worden. We zullen zsm extra collect-openingstijden in de avonden bekendmaken."
           }
         },
         "button": {
@@ -34,6 +34,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Sint-Visser-Chocolade-Deurne-Letters.png",
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",

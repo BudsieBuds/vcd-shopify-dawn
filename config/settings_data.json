@@ -52,13 +52,13 @@
           "29cbae7d-9219-4fe2-b478-a484d6b9a68a"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "inverse",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": false,
-          "enable_language_selector": false,
-          "payment_enable": false
+          "enable_language_selector": true,
+          "payment_enable": true
         }
       }
     },
