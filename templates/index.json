@@ -47,6 +47,7 @@
     },
     "16363800534cafab08": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16363800534cafab08-0": {
           "type": "heading",
