@@ -33,44 +33,6 @@
         "show_text_below": true
       }
     },
-    "16363800534cafab08": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "16363800534cafab08-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Click & collect",
-            "heading_size": "h1"
-          }
-        },
-        "16363800534cafab08-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>• Kies je favoriete smaken & letters<br\/>• Betaal gemakkelijk online<br\/>• Ontvang een e-mail wanneer jouw bestelling klaar ligt om opgehaald te worden<\/p>"
-          }
-        },
-        "16363800534cafab08-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "16363800534cafab08-0",
-        "16363800534cafab08-1",
-        "16363800534cafab08-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "16354709973c1e6d0d": {
       "type": "featured-collection",
       "settings": {
@@ -86,58 +48,10 @@
         "show_vendor": true,
         "show_rating": false
       }
-    },
-    "16354793646fd29834": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
-      }
-    },
-    "163637972209d339ab": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "163637972209d339ab-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "163637972209d339ab-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "163637972209d339ab-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "163637972209d339ab-0",
-        "163637972209d339ab-1",
-        "163637972209d339ab-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
     }
   },
   "order": [
     "image_banner",
-    "16363800534cafab08",
-    "16354709973c1e6d0d",
-    "16354793646fd29834",
-    "163637972209d339ab"
+    "16354709973c1e6d0d"
   ]
 }
