@@ -13,26 +13,13 @@
         "69d5a284-a558-420f-891c-6892b6308619": {
           "type": "text",
           "settings": {
-            "text": "We hebben een ruime keuze aan heerlijke luxe chocolade letters voor u geselecteerd."
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Click & collect",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "We hebben een ruime keuze aan heerlijke luxe chocolade letters voor u geselecteerd.Click & collect werkt erg gemakkelijk: Kies je favoriet smaak en letter, betaal gemakkelijk & veilig online, je ontvangt een e-mail wanneer jouw bestelling klaar ligt om opgehaald te worden :) Smullen maar!"
           }
         }
       },
       "block_order": [
         "heading",
-        "69d5a284-a558-420f-891c-6892b6308619",
-        "button"
+        "69d5a284-a558-420f-891c-6892b6308619"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Sint-Visser-Chocolade-Deurne-Letters.png",
@@ -48,6 +35,7 @@
     },
     "16363800534cafab08": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16363800534cafab08-0": {
           "type": "heading",
