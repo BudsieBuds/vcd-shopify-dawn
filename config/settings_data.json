@@ -29,9 +29,9 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/VCD-logo_6bbeb527-c40a-498a-84c4-a4cb7b41e520.png",
+          "logo": "shopify:\/\/shop_images\/VCD-logo_62bc354f-9fcb-4ce4-b154-4fdf71165b2d.png",
           "logo_width": 100,
-          "logo_position": "middle-left",
+          "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": true,
           "enable_sticky_header": true
