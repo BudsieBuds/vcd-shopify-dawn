@@ -32,6 +32,13 @@
           "settings": {
           }
         },
+        "b019b7ed-7c51-420c-ba33-47f22efbd70b": {
+          "type": "text",
+          "settings": {
+            "text": "Gewicht: {{ product.metafields.field.weight | metafield_text }}",
+            "text_style": "body"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -56,6 +63,7 @@
         "subtitle",
         "price",
         "description",
+        "b019b7ed-7c51-420c-ba33-47f22efbd70b",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
