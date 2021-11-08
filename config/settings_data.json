@@ -39,6 +39,18 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "29cbae7d-9219-4fe2-b478-a484d6b9a68a": {
+            "type": "text",
+            "settings": {
+              "heading": "Visser Chocolade Deurne",
+              "subtext": "<p>Stationsstraat 6, 5751 HE, Deurne<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "29cbae7d-9219-4fe2-b478-a484d6b9a68a"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": false,
