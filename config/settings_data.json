@@ -46,11 +46,11 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "8cadcf13-ca6f-4e10-95bb-e3210291064f": {
-            "type": "text",
+          "3094d9cb-f134-4eb3-9638-51e4c72b1799": {
+            "type": "custom_liquid",
             "settings": {
               "heading": "Openingstijden",
-              "subtext": "<table style=\"font-size: inherit; box-shadow: none;\"><tbody><tr><td style=\"border: 0; padding: 0 1em 0 0;\">maandag<\/td><td style=\"border: 0; padding: 0;\">gesloten<\/td><\/tr><tr><td style=\"border: 0; padding: 0 1em 0 0;\">dinsdag<\/td><td style=\"border: 0; padding: 0;\">gesloten<\/td><\/tr><tr><td style=\"border: 0; padding: 0 1em 0 0;\">woensdag<\/td><td style=\"border: 0; padding: 0;\">12.00 tot 17.00<\/td><\/tr><tr><td style=\"border: 0; padding: 0 1em 0 0;\">donderdag<\/td><td style=\"border: 0; padding: 0;\">12.00 tot 17.00<\/td><\/tr><tr><td style=\"border: 0; padding: 0 1em 0 0;\">vrijdag<\/td><td style=\"border: 0; padding: 0;\">12.00 tot 17.00<\/td><\/tr><tr><td style=\"border: 0; padding: 0 1em 0 0;\">zaterdag<\/td><td style=\"border: 0; padding: 0;\">12.00 tot 17.00<\/td><\/tr><tr><td style=\"border: 0; padding: 0 1em 0 0;\">zondag<\/td><td style=\"border: 0; padding: 0;\">gesloten<\/td><\/tr><\/tbody><\/table>"
+              "custom_liquid": "<table style=\"font-size: inherit; box-shadow: none;\"><tbody><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">maandag<\/td>\n<td style=\"border: 0; padding: 0;\">gesloten<\/td>\n<\/tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">dinsdag<\/td>\n<td style=\"border: 0; padding: 0;\">gesloten<\/td>\n<\/tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">woensdag<\/td>\n<td style=\"border: 0; padding: 0;\">12.00 tot 17.00<\/td>\n<\/tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">donderdag<\/td>\n<td style=\"border: 0; padding: 0;\">12.00 tot 17.00<\/td>\n<\/tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">vrijdag<\/td>\n<td style=\"border: 0; padding: 0;\">12.00 tot 17.00<\/td>\n<\/tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">zaterdag<\/td>\n<td style=\"border: 0; padding: 0;\">12.00 tot 17.00<\/td>\n<\/tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">zondag<\/td>\n<td style=\"border: 0; padding: 0;\">gesloten<\/td>\n<\/tr><\/tbody><\/table>"
             }
           },
           "29cbae7d-9219-4fe2-b478-a484d6b9a68a": {
@@ -60,18 +60,18 @@
               "subtext": "<p>Stationsstraat 6<br\/>5751 HE, Deurne<\/p>"
             }
           },
-          "873c6e91-467c-439e-84b4-33c04d19990e": {
-            "type": "text",
+          "8630bb4d-e23a-4e22-84ee-fa5ccfc09941": {
+            "type": "custom_liquid",
             "settings": {
               "heading": "Contact",
-              "subtext": "<p><a href=\"mailto:info@visserchocoladedeurne.nl\" title=\"Stuur ons een e-mail\">info@visserchocoladedeurne.nl<\/a><\/p>"
+              "custom_liquid": "<ul class=\"footer-block__details-content list-unstyled\" style=\"padding-left: 0;\">\n  <li>\n    <a href=\"mailto:info@visserchocoladedeurne.nl\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\" title=\"Stuur ons een e-mail\">\n      <span class=\"list-social__item icon\">{%- render 'icon-mail' -%}<\/span><span>&nbsp;info@visserchocoladedeurne.nl<\/span>\n    <\/a>\n  <\/li>\n  {%- if settings.social_facebook_link != blank -%}\n  <li>\n    <a href=\"{{ settings.social_facebook_link }}\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\">\n      <span class=\"list-social__item icon\">{%- render 'icon-facebook' -%}<\/span><span>&nbsp;{{- 'general.social.links.facebook' | t -}}<\/span>\n    <\/a>\n  <\/li>\n  {%- endif -%}\n  {%- if settings.social_instagram_link != blank -%}\n  <li>\n    <a href=\"{{ settings.social_instagram_link }}\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\">\n      <span class=\"list-social__item icon\">{%- render 'icon-instagram' -%}<\/span><span>&nbsp;{{- 'general.social.links.instagram' | t -}}<\/span>\n    <\/a>\n  <\/li>\n  {%- endif -%}\n<\/ul>"
             }
           }
         },
         "block_order": [
-          "8cadcf13-ca6f-4e10-95bb-e3210291064f",
+          "3094d9cb-f134-4eb3-9638-51e4c72b1799",
           "29cbae7d-9219-4fe2-b478-a484d6b9a68a",
-          "873c6e91-467c-439e-84b4-33c04d19990e"
+          "8630bb4d-e23a-4e22-84ee-fa5ccfc09941"
         ],
         "settings": {
           "color_scheme": "accent-1",
