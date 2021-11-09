@@ -84,8 +84,25 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "Meer smaken",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
+    "16364668757d064e13": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Meer smaken",
+        "collection": "sinterklaas-chocolade",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
         "image_ratio": "square",
         "show_secondary_image": false,
         "add_image_padding": false,
@@ -97,6 +114,7 @@
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "16364668757d064e13"
   ]
 }
