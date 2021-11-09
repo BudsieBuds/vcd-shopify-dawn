@@ -35,7 +35,7 @@
         "039bd04d-01c7-4aae-ba1b-e4163648993f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% unless product.metafields.field.weight == blank %}Gewicht: {{ product.metafields.field.weight | metafield_text }}<br>{% endunless %}"
+            "custom_liquid": "{% unless product.metafields.field.weight == blank %}<p>Gewicht: {{ product.metafields.field.weight | metafield_text }}<\/p>{% endunless %}"
           }
         },
         "bcc48630-9c6a-4d4d-a7cb-be6b95cf07bb": {
