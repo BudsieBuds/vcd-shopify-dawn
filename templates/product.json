@@ -35,14 +35,14 @@
         "b019b7ed-7c51-420c-ba33-47f22efbd70b": {
           "type": "text",
           "settings": {
-            "text": "Gewicht: {{ product.metafields.field.weight | metafield_text }}",
+            "text": "{% unless product.metafields.field.weight == blank %}Gewicht: {{ product.metafields.field.weight | metafield_text }}{% endunless %}",
             "text_style": "body"
           }
         },
         "f8bc7fff-cef0-4868-9f26-0f8903b1d9c0": {
           "type": "text",
           "settings": {
-            "text": "Ingrediënten: <i>{{ product.metafields.field.ingredients.value }}<\/i>",
+            "text": "{% unless product.metafields.field.ingredients == blank %}Ingrediënten: <i>{{ product.metafields.field.ingredients.value }}<\/i>{% endunless %}",
             "text_style": "body"
           }
         },
