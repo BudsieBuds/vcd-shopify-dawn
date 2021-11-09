@@ -50,7 +50,7 @@
             "type": "text",
             "settings": {
               "heading": "Visser Chocolade Deurne",
-              "subtext": "<p>Stationsstraat 6, <br\/>5751 HE, Deurne<br\/><br\/>info@visserchocoladedeurne.nl<\/p>"
+              "subtext": "<p>Stationsstraat 6<br\/>5751 HE, Deurne<br\/><br\/><a href=\"mailto:info@visserchocoladedeurne.nl\" title=\"Stuur ons een e-mail\">info@visserchocoladedeurne.nl<\/a><\/p>"
             }
           }
         },
