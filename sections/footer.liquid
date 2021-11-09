@@ -68,6 +68,10 @@
                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                     {%- endif -%}
                   </div>
+                  {%- when 'custom_liquid' -%}
+                    <div class="footer-block__details-content rte">
+                      {{ block.settings.custom_liquid }}
+                    </div>
                 {%- endcase -%}
             </div>
           {%- endfor -%}
@@ -304,7 +308,7 @@
           </div>
         {%- endif -%}
         <div class="footer__copyright caption">
-          <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+          <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }} {{ shop.name | link_to: routes.root_url }}</small>
         </div>
       </div>
     </div>
@@ -443,6 +447,25 @@
             }
           ],
           "default": "center"
+        }
+      ]
+    },
+    {
+      "type": "custom_liquid",
+      "name": "t:sections.custom-liquid.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Heading",
+          "label": "t:sections.footer.blocks.text.settings.heading.label"
+        },
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "default": "<p>Custom liquid</p>",
+          "label": "t:sections.custom-liquid.settings.custom_liquid.label",
+          "info": "t:sections.custom-liquid.settings.custom_liquid.info"
         }
       ]
     }
