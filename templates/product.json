@@ -41,15 +41,6 @@
             "icon": "weight"
           }
         },
-        "cc2c8a80-a008-4f26-b819-2569addce4c0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Ingrediënten",
-            "content": "<p>{{ product.metafields.field.ingredients.value }}<\/p>",
-            "page": "",
-            "icon": "ingredients"
-          }
-        },
         "e6d81e03-0034-4f30-8489-369ecea833a6": {
           "type": "collapsible_tab",
           "settings": {
@@ -57,6 +48,15 @@
             "content": "",
             "page": "",
             "icon": "allergens"
+          }
+        },
+        "cc2c8a80-a008-4f26-b819-2569addce4c0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingrediënten",
+            "content": "<p>{{ product.metafields.field.ingredients.value }}<\/p>",
+            "page": "",
+            "icon": "ingredients"
           }
         },
         "variant_picker": {
@@ -84,8 +84,8 @@
         "price",
         "description",
         "aa2e022d-9a75-433a-a362-4dd68eb18954",
-        "cc2c8a80-a008-4f26-b819-2569addce4c0",
         "e6d81e03-0034-4f30-8489-369ecea833a6",
+        "cc2c8a80-a008-4f26-b819-2569addce4c0",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
