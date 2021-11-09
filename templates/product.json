@@ -50,16 +50,13 @@
             "icon": "leaf"
           }
         },
-        "039bd04d-01c7-4aae-ba1b-e4163648993f": {
-          "type": "custom_liquid",
+        "e6d81e03-0034-4f30-8489-369ecea833a6": {
+          "type": "collapsible_tab",
           "settings": {
-            "custom_liquid": "{% unless product.metafields.field.weight == blank %}<p>Gewicht: {{ product.metafields.field.weight | metafield_text }}<\/p>{% endunless %}"
-          }
-        },
-        "bcc48630-9c6a-4d4d-a7cb-be6b95cf07bb": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% unless product.metafields.field.ingredients == blank %}<p>Ingrediënten: <i>{{ product.metafields.field.ingredients.value }}<\/i><\/p>{% endunless %}"
+            "heading": "Allergenen",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
           }
         },
         "variant_picker": {
@@ -88,8 +85,7 @@
         "description",
         "aa2e022d-9a75-433a-a362-4dd68eb18954",
         "cc2c8a80-a008-4f26-b819-2569addce4c0",
-        "039bd04d-01c7-4aae-ba1b-e4163648993f",
-        "bcc48630-9c6a-4d4d-a7cb-be6b95cf07bb",
+        "e6d81e03-0034-4f30-8489-369ecea833a6",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
