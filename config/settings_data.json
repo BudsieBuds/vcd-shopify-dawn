@@ -38,7 +38,7 @@
           "logo": "shopify:\/\/shop_images\/VCD-logo_62bc354f-9fcb-4ce4-b154-4fdf71165b2d.png",
           "logo_width": 100,
           "logo_position": "top-center",
-          "menu": "main-menu",
+          "menu": "",
           "show_line_separator": true,
           "enable_sticky_header": true
         }
