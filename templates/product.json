@@ -38,7 +38,7 @@
             "heading": "Gewicht",
             "content": "<p>{{ product.metafields.field.weight | metafield_tag }}<\/p>",
             "page": "",
-            "icon": "box"
+            "icon": "weight"
           }
         },
         "cc2c8a80-a008-4f26-b819-2569addce4c0": {
@@ -47,7 +47,7 @@
             "heading": "Ingrediënten",
             "content": "<p>{{ product.metafields.field.ingredients.value }}<\/p>",
             "page": "",
-            "icon": "leaf"
+            "icon": "ingredients"
           }
         },
         "e6d81e03-0034-4f30-8489-369ecea833a6": {
