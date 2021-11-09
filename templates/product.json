@@ -55,6 +55,13 @@
           "settings": {
             "show_dynamic_checkout": true
           }
+        },
+        "f8bc7fff-cef0-4868-9f26-0f8903b1d9c0": {
+          "type": "text",
+          "settings": {
+            "text": "Ingrediënten: {{ product.metafields.field.ingredients.value }}",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -66,7 +73,8 @@
         "b019b7ed-7c51-420c-ba33-47f22efbd70b",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "f8bc7fff-cef0-4868-9f26-0f8903b1d9c0"
       ],
       "settings": {
         "enable_sticky_info": true,
