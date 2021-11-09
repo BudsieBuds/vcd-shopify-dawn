@@ -46,16 +46,32 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "8cadcf13-ca6f-4e10-95bb-e3210291064f": {
+            "type": "text",
+            "settings": {
+              "heading": "Openingstijden",
+              "subtext": "<p>&lt;table&gt;<br\/>&lt;tbody&gt;<br\/>  &lt;tr&gt;<br\/>    &lt;td&gt;maandag&lt;\/td&gt;<br\/>    &lt;td&gt;gesloten&lt;\/td&gt;<br\/>  &lt;\/tr&gt;<br\/>  &lt;tr&gt;<br\/>    &lt;td&gt;dinsdag&lt;br&gt;&lt;\/td&gt;<br\/>    &lt;td&gt;gesloten&lt;\/td&gt;<br\/>  &lt;\/tr&gt;<br\/>  &lt;tr&gt;<br\/>    &lt;td&gt;woensdag&lt;\/td&gt;<br\/>    &lt;td&gt;12.00 tot 17.00&lt;\/td&gt;<br\/>  &lt;\/tr&gt;<br\/>  &lt;tr&gt;<br\/>    &lt;td&gt;donderdag&lt;\/td&gt;<br\/>    &lt;td&gt;&lt;\/td&gt;<br\/>  &lt;\/tr&gt;<br\/>  &lt;tr&gt;<br\/>    &lt;td&gt;vrijdag&lt;\/td&gt;<br\/>    &lt;td&gt;&lt;\/td&gt;<br\/>  &lt;\/tr&gt;<br\/>  &lt;tr&gt;<br\/>    &lt;td&gt;zaterdag&lt;\/td&gt;<br\/>    &lt;td&gt;&lt;\/td&gt;<br\/>  &lt;\/tr&gt;<br\/>  &lt;tr&gt;<br\/>    &lt;td&gt;zondag&lt;\/td&gt;<br\/>    &lt;td&gt;gesloten&lt;\/td&gt;<br\/>  &lt;\/tr&gt;<br\/>&lt;\/tbody&gt;<br\/>&lt;\/table&gt;<\/p>"
+            }
+          },
           "29cbae7d-9219-4fe2-b478-a484d6b9a68a": {
             "type": "text",
             "settings": {
               "heading": "Visser Chocolade Deurne",
-              "subtext": "<p>Stationsstraat 6, <br\/>5751 HE, Deurne<br\/><br\/>info@visserchocoladedeurne.nl<\/p>"
+              "subtext": "<p>Stationsstraat 6<br\/>5751 HE, Deurne<\/p>"
+            }
+          },
+          "873c6e91-467c-439e-84b4-33c04d19990e": {
+            "type": "text",
+            "settings": {
+              "heading": "Contact",
+              "subtext": "<p><a href=\"mailto:info@visserchocoladedeurne.nl\" title=\"Stuur ons een e-mail\">info@visserchocoladedeurne.nl<\/a><\/p>"
             }
           }
         },
         "block_order": [
-          "29cbae7d-9219-4fe2-b478-a484d6b9a68a"
+          "8cadcf13-ca6f-4e10-95bb-e3210291064f",
+          "29cbae7d-9219-4fe2-b478-a484d6b9a68a",
+          "873c6e91-467c-439e-84b4-33c04d19990e"
         ],
         "settings": {
           "color_scheme": "accent-1",
@@ -63,8 +79,8 @@
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
-          "enable_language_selector": true,
-          "payment_enable": true
+          "enable_language_selector": false,
+          "payment_enable": false
         }
       }
     },
