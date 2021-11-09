@@ -35,7 +35,13 @@
         "039bd04d-01c7-4aae-ba1b-e4163648993f": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% unless product.metafields.field.weight == blank %}Gewicht: {{ product.metafields.field.weight | metafield_text }}{% endunless %}"
+            "custom_liquid": "{% unless product.metafields.field.weight == blank %}Gewicht: {{ product.metafields.field.weight | metafield_text }}<br>{% endunless %}"
+          }
+        },
+        "bcc48630-9c6a-4d4d-a7cb-be6b95cf07bb": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% unless product.metafields.field.ingredients == blank %}Ingrediënten: <i>{{ product.metafields.field.ingredients.value }}<\/i>{% endunless %}"
           }
         },
         "b019b7ed-7c51-420c-ba33-47f22efbd70b": {
@@ -68,12 +74,6 @@
           "settings": {
             "show_dynamic_checkout": true
           }
-        },
-        "bcc48630-9c6a-4d4d-a7cb-be6b95cf07bb": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% unless product.metafields.field.ingredients == blank %}Ingrediënten: <i>{{ product.metafields.field.ingredients.value }}<\\\/i>{% endunless %}"
-          }
         }
       },
       "block_order": [
@@ -83,12 +83,12 @@
         "price",
         "description",
         "039bd04d-01c7-4aae-ba1b-e4163648993f",
+        "bcc48630-9c6a-4d4d-a7cb-be6b95cf07bb",
         "b019b7ed-7c51-420c-ba33-47f22efbd70b",
         "f8bc7fff-cef0-4868-9f26-0f8903b1d9c0",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "bcc48630-9c6a-4d4d-a7cb-be6b95cf07bb"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
