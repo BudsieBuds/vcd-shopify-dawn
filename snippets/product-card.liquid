@@ -28,6 +28,9 @@
         <h3 class="card-information__text h5">
           <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
             {{ product_card_product.title | escape }}
+            {%- if product.metafields.descriptors.subtitle.value != blank -%}
+              &nbsp;{{ product.metafields.descriptors.subtitle | escape }}
+            {%- endif -%}
           </a>
         </h3>
       {%- endif -%}
