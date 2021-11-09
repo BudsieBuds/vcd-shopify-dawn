@@ -52,10 +52,18 @@
               "heading": "Visser Chocolade Deurne",
               "subtext": "<p>Stationsstraat 6<br\/>5751 HE, Deurne<br\/><br\/><a href=\"mailto:info@visserchocoladedeurne.nl\" title=\"Stuur ons een e-mail\">info@visserchocoladedeurne.nl<\/a><\/p>"
             }
+          },
+          "8cadcf13-ca6f-4e10-95bb-e3210291064f": {
+            "type": "text",
+            "settings": {
+              "heading": "Openingstijden",
+              "subtext": "<p>maandag gesloten<br\/>dinsdag gesloten<br\/>woensdag 12.00 tot 17.00 uur<br\/>donderdag 12.00 tot 17.00 uur<br\/>vrijdag 12.00 tot 17.00 uur<br\/>zaterdag 12.00 tot 17.00 uur<br\/>zondag gesloten<\/p>"
+            }
           }
         },
         "block_order": [
-          "29cbae7d-9219-4fe2-b478-a484d6b9a68a"
+          "29cbae7d-9219-4fe2-b478-a484d6b9a68a",
+          "8cadcf13-ca6f-4e10-95bb-e3210291064f"
         ],
         "settings": {
           "color_scheme": "accent-1",
