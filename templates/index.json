@@ -23,7 +23,7 @@
       ],
       "settings": {
         "image_2": "shopify:\/\/shop_images\/banner-sinterklaas.jpg",
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "show_text_box": true,
