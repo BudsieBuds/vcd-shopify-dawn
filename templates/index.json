@@ -13,7 +13,7 @@
         "69d5a284-a558-420f-891c-6892b6308619": {
           "type": "text",
           "settings": {
-            "text": "We hebben een ruime keuze aan heerlijke luxe chocoladeletters voor u geselecteerd. Click & Collect werkt erg gemakkelijk: kies je favoriet letters en smaken, betaal gemakkelijk en veilig online, je ontvangt een e-mail wanneer jouw bestelling klaar ligt om opgehaald te worden en smullen maar!"
+            "text": "We hebben een ruime keuze aan (h)eerlijke en luxe chocoladeletters. Deze kunnen besteld worden via ons click & collect systeem. Het werkt heel simpel: kies je favoriete letters en smaken, betaal gemakkelijk en veilig online, je ontvangt bericht wanneer de bestelling klaar ligt om opgehaald te worden en smullen maar!"
           }
         }
       },
@@ -31,6 +31,43 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "1636667977effe9e73": {
+      "type": "rich-text",
+      "blocks": {
+        "1636667977effe9e73-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1636667977effe9e73-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tijdens het selecteren van de chocoladeletters voor Sinterklaas zijn er een aantal mogelijkheden. Veel van onze letters zijn verkrijgbaar als A tot en met Z, sommige enkel als de letter S. De grote letters zitten in een luxe letterdoos met de keuze uit een sierlint of volledig ingepakt met cadeaupapier. Ons kleine winkeltje heeft niet alle combinaties van letters en smaken op voorraad, dus probeer op tijd te bestellen zodat de jute zak goed gevuld is.<\/p>"
+          }
+        },
+        "1636667977effe9e73-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1636667977effe9e73-0",
+        "1636667977effe9e73-1",
+        "1636667977effe9e73-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true
       }
     },
     "16354709973c1e6d0d": {
@@ -52,6 +89,7 @@
   },
   "order": [
     "image_banner",
+    "1636667977effe9e73",
     "16354709973c1e6d0d"
   ]
 }
