@@ -18,7 +18,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": true,
-    "favicon": "shopify:\/\/shop_images\/Fav-VCD.png",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "currency_code_enabled": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/VCD-logo_62bc354f-9fcb-4ce4-b154-4fdf71165b2d.png",
     "checkout_logo_position": "center",
