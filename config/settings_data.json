@@ -28,6 +28,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "8c9703ee-7fa1-43ee-9223-ff2ebef7ec24": {
+            "type": "announcement",
+            "settings": {
+              "text": "LET OP: de Sinterklaas letters kunnen nog tot 28 november 15.00 uur besteld worden. Dan hebben de hulppieten nog tijd genoeg om deze voor je in te pakken.",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "8c9703ee-7fa1-43ee-9223-ff2ebef7ec24"
+        ],
         "settings": {
         }
       },
