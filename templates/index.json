@@ -33,6 +33,43 @@
         "show_text_below": true
       }
     },
+    "16380414372b74c14e": {
+      "type": "rich-text",
+      "blocks": {
+        "16380414371d8081ce-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "16380414371d8081ce-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Onze letters worden op bestelling gemaakt. Wanneer je nu besteld, <br\/>krijg je bericht wanneer je ze op kan halen. Wij doen ons uiterste best <br\/>om alle bestellingen uiterlijk 3 december klaar te hebben.<\/p><p>Om iedereen te kunnen helpen met de laatste Sinterklaas cadeautjes zullen <br\/>wij op 5 december onze deuren openen van 12.00 tot 17.00 uur.<\/p>"
+          }
+        },
+        "16380414371d8081ce-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16380414371d8081ce-0",
+        "16380414371d8081ce-1",
+        "16380414371d8081ce-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "1636667977effe9e73": {
       "type": "rich-text",
       "blocks": {
@@ -47,7 +84,7 @@
         "1636667977effe9e73-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Tijdens het selecteren van de chocoladeletters voor Sinterklaas zijn er een aantal mogelijkheden. Veel van onze letters zijn verkrijgbaar van A tot en met Z, sommige enkel als de letter S. De grote letters zitten in een luxe letterdoos met keuze uit een sierlint of volledig ingepakt met cadeaupapier. Ons kleine winkeltje heeft niet alle combinaties van letters en smaken op voorraad, dus probeer op tijd te bestellen zodat de jute zak goed gevuld is.<\/p><p><\/p><p>Onze letters worden op bestelling gemaakt. Wanneer je nu besteld, krijg je bericht wanneer je ze op kan halen. Wij doen ons uiterste best om alle bestellingen uiterlijk 3 december klaar te hebben.<\/p><p>Om iedereen te kunnen helpen met de laatste Sinterklaas cadeautjes zullen wij op 5 december onze deuren openen van 12.00 tot 17.00 uur.<br\/><\/p>"
+            "text": "<p>Tijdens het selecteren van de chocoladeletters voor Sinterklaas zijn er een aantal mogelijkheden. Veel van onze letters zijn verkrijgbaar van A tot en met Z, sommige enkel als de letter S. De grote letters zitten in een luxe letterdoos met keuze uit een sierlint of volledig ingepakt met cadeaupapier. Ons kleine winkeltje heeft niet alle combinaties van letters en smaken op voorraad, dus probeer op tijd te bestellen zodat de jute zak goed gevuld is.<br\/><\/p>"
           }
         },
         "1636667977effe9e73-2": {
@@ -89,6 +126,7 @@
   },
   "order": [
     "image_banner",
+    "16380414372b74c14e",
     "1636667977effe9e73",
     "16354709973c1e6d0d"
   ]
