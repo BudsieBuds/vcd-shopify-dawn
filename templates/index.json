@@ -35,12 +35,11 @@
     },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Click & Collect",
+            "heading": "Huidige openingstijden",
             "heading_size": "medium"
           }
         },
@@ -56,13 +55,12 @@
         "69d5a284-a558-420f-891c-6892b6308619"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-sinterklaas.jpg",
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 20,
-        "color_scheme": "background-1",
+        "show_text_box": false,
+        "image_overlay_opacity": 100,
+        "color_scheme": "accent-2",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
