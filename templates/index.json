@@ -113,7 +113,7 @@
           "type": "column",
           "settings": {
             "title": "Huidige openingstijden",
-            "text": "<p><strong>Woensdag 22 dec.<\/strong> <br\/>12.00 - 18.00 uur<br\/><strong>Donderdag 23 dec.<\/strong> <br\/>10.00 - 18.00 uur<br\/><strong>Vrijdag 24 dec. <\/strong><br\/>10.00 - 18.00 uur<\/p>",
+            "text": "<p><strong>Woensdag 22 dec.<\/strong> <br\/>12.00 - 17.00 uur<br\/><strong>Donderdag 23 dec.<\/strong> <br\/>10.00 - 18.00 uur<br\/><strong>Vrijdag 24 dec. <\/strong><br\/>10.00 - 18.00 uur<\/p>",
             "link_label": "",
             "link": ""
           }
