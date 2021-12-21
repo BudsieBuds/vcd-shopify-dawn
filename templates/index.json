@@ -22,12 +22,13 @@
         "1638111072e708a8b1-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/gift-card.jpg",
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
-        "show_text_box": false,
-        "image_overlay_opacity": 100,
-        "color_scheme": "inverse",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "accent-2",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
