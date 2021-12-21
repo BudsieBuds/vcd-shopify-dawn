@@ -110,8 +110,8 @@
         "16401121204eea315f-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Huidige openingstijden",
+            "text": "<p><strong>Woensdag 22 dec.<\/strong> <br\/>12.00 - 18.00 uur<br\/><strong>Donderdag 23 dec.<\/strong> <br\/>10.00 - 18.00 uur<br\/><strong>Vrijdag 24 dec. <\/strong><br\/>10.00 - 18.00 uur<\/p>",
             "link_label": "",
             "link": ""
           }
