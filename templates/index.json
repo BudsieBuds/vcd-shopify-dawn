@@ -104,7 +104,7 @@
           "type": "column",
           "settings": {
             "title": "Voorzorgsmaatregelen",
-            "text": "<p>Omdat we een klein winkeltje hebben mogen we momenteel helaas maar 1 klant per keer in de winkel verwelkomen<br\/>• Draag een mondkapje zoals voorgeschreven<br\/>• Houd 1,5 meter afstand tot elkaar, ook buiten<\/p>",
+            "text": "<p>Omdat we een klein winkeltje hebben mogen we momenteel helaas maar <span style=\"text-decoration:underline\"><strong>1 klant per keer<\/strong><\/span> in de winkel verwelkomen<br\/>• Draag een <span style=\"text-decoration:underline\"><strong>mondkapje<\/strong><\/span> zoals voorgeschreven<br\/>• Houd <span style=\"text-decoration:underline\"><strong>1,5 meter afstand<\/strong><\/span> tot elkaar, ook buiten<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -122,7 +122,7 @@
           "type": "column",
           "settings": {
             "title": "Voorkom wachten",
-            "text": "<p>Kleine of grote bestelling klaar laten zetten? Stuur een mailtje met je wensen, vragen, allergieën en  voorkeuren voor uw bonbons of chocolade naar info@visserchocoladedeurne.nl wij zullen ons uiterste best doen om aan uw wensen te voldoen.<\/p>",
+            "text": "<p>Kleine of grote bestelling klaar laten zetten? <br\/>Stuur een mailtje met je wensen, vragen, allergieën en  voorkeuren voor uw bonbons of chocolade naar info@visserchocoladedeurne.nl wij zullen ons uiterste best doen om aan uw wensen te voldoen.<\/p>",
             "link_label": "",
             "link": ""
           }
