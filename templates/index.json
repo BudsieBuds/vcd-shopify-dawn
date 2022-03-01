@@ -13,7 +13,7 @@
         "1638111072e708a8b1-1": {
           "type": "text",
           "settings": {
-            "text": "Omdat wij etenswaren verkopen vallen wij tijdens de huidige maatregelen onder de categorie essentieel.  Wij willen u met liefde en plezier ontvangen in ons winkeltje maar wel wel veilig & volgens aangegeven voorzorgsmaatregelen."
+            "text": "Momenteel zijn we hard bezig om onze webshop te vullen:) Wel kun je natuurlijk een bestelling plaatsen, dit kun je doen door een mailtje te sturen aan info@visserchocoladedeurne.nl. Wij kunnen je dan voorzien van foto's, allergeneninformatie en voorraad zodat je toch online kunt shoppen!  Tot snel :)"
           }
         }
       },
@@ -102,6 +102,7 @@
       "blocks": {
         "16401121204eea315f-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Voorzorgsmaatregelen",
             "text": "<p>Omdat we een klein winkeltje hebben mogen we momenteel helaas maar <span style=\"text-decoration:underline\"><strong>1 klant per keer<\/strong><\/span> in de winkel verwelkomen<br\/>• Draag een <span style=\"text-decoration:underline\"><strong>mondkapje<\/strong><\/span> zoals voorgeschreven<br\/>• Houd <span style=\"text-decoration:underline\"><strong>1,5 meter afstand<\/strong><\/span> tot elkaar, ook buiten<\/p>",
