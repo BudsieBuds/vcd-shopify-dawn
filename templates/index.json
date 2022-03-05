@@ -114,7 +114,7 @@
           "type": "column",
           "settings": {
             "title": "Aangepaste openingstijden",
-            "text": "<p>Let op! wegens carnaval dinsdag 1 Maart gesloten<\/p><p>Dinsdag 13.00 - 17.00 uur.<br\/>Woensdag 10.00 - 17.00 uur.<br\/>Donderdag 10.00 - 17.00 uur.<br\/>Vrijdag 10.00 - 17.00 uur.<br\/>Zaterdag 10.00 - 17.00 uur.<\/p>",
+            "text": "<p>Dinsdag 13.00 - 17.00 uur.<br\/>Woensdag 10.00 - 17.00 uur.<br\/>Donderdag 10.00 - 17.00 uur.<br\/>Vrijdag 10.00 - 17.00 uur.<br\/>Zaterdag 10.00 - 17.00 uur.<\/p>",
             "link_label": "",
             "link": ""
           }
