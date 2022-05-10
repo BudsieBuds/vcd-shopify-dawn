@@ -113,8 +113,8 @@
         "16401121204eea315f-1": {
           "type": "column",
           "settings": {
-            "title": "Aangepaste openingstijden",
-            "text": "<p>Dinsdag 13.00 - 17.00 uur.<br\/>Woensdag 10.00 - 17.00 uur.<br\/>Donderdag 10.00 - 17.00 uur.<br\/>Vrijdag 10.00 - 17.00 uur.<br\/>Zaterdag 10.00 - 17.00 uur.<\/p>",
+            "title": "Openingstijden",
+            "text": "<p>Let op: dinsdag 10 & woensdag 11 mei zijn we gesloten.<\/p><p>Dinsdag 13.00 - 17.00 uur.<br\/>Woensdag 10.00 - 17.00 uur.<br\/>Donderdag 10.00 - 17.00 uur.<br\/>Vrijdag 10.00 - 17.00 uur.<br\/>Zaterdag 10.00 - 17.00 uur.<\/p>",
             "link_label": "",
             "link": ""
           }
