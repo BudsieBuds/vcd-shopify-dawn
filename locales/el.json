@@ -47,6 +47,12 @@
       "share_url": "Σύνδεσμος",
       "success_message": "Ο σύνδεσμος αντιγράφηκε στο πρόχειρο",
       "close": "Κλείσιμο κοινοποίησης"
+    },
+    "slider": {
+      "of": "από",
+      "next_slide": "Σύρετε δεξιά",
+      "previous_slide": "Σύρετε αριστερά",
+      "name": "Ρυθμιστικό"
     }
   },
   "newsletter": {
@@ -65,13 +71,12 @@
       "new_window": "Ανοίγει σε νέο παράθυρο.",
       "external": "Ανοίγει εξωτερικό ιστότοπο."
     },
-    "next_slide": "Σύρετε δεξιά",
-    "previous_slide": "Σύρετε αριστερά",
     "loading": "Φόρτωση...",
-    "of": "από",
     "skip_to_product_info": "Μετάβαση στις πληροφορίες προϊόντος",
     "total_reviews": "σύνολο κριτικών",
-    "star_reviews_info": "{{ rating_value }} από {{ rating_max }} αστέρια"
+    "star_reviews_info": "{{ rating_value }} από {{ rating_max }} αστέρια",
+    "collapsible_content_title": "Περιεχόμενο με δυνατότητα σύμπτυξης",
+    "complementary_products": "Συμπληρωματικά προϊόντα"
   },
   "blogs": {
     "article": {
@@ -132,14 +137,20 @@
         "refresh": "Ανανέωση"
       },
       "media": {
-        "open_featured_media": "Άνοιγμα επιλεγμένων μέσων στην προβολή συλλογής",
-        "open_media": "Άνοιγμα μέσου {{ index }} στην προβολή συλλογής",
+        "open_media": "Άνοιγμα μέσου {{ index }} στο βοηθητικό παράθυρο",
         "play_model": "Έναρξη εφαρμογής προβολής 3D",
-        "play_video": "Αναπαραγωγή βίντεο"
+        "play_video": "Αναπαραγωγή βίντεο",
+        "gallery_viewer": "Εργαλείο προβολής συλλογής",
+        "load_image": "Φόρτωση εικόνας {{ index }} στην προβολή συλλογής",
+        "load_model": "Φόρτωση μοντέλου 3D {{ index }} στην προβολή συλλογής",
+        "load_video": "Αναπαραγωγή βίντεο {{ index }} στην προβολή συλλογής",
+        "image_available": "Η εικόνα {{ index }} είναι τώρα διαθέσιμη στην προβολή συλλογής"
       },
       "view_full_details": "Προβολή όλων των λεπτομερειών",
       "include_taxes": "Ο φόρος συμπεριλαμβάνεται.",
-      "shipping_policy_html": "Τα <a href=\"{{ link }}\">έξοδα αποστολής</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς."
+      "shipping_policy_html": "Τα <a href=\"{{ link }}\">έξοδα αποστολής</a> υπολογίζονται κατά την ολοκλήρωση της αγοράς.",
+      "choose_options": "Ορίστε επιλογές",
+      "choose_product_options": "Ορίστε επιλογές για {{ product_name }}"
     },
     "modal": {
       "label": "Συλλογή μέσων"
@@ -147,7 +158,7 @@
     "facets": {
       "apply": "Εφαρμογή",
       "clear": "Διαγραφή",
-      "clear_all": "Διαγραφή όλων",
+      "clear_all": "Κατάργηση όλων",
       "from": "Από",
       "filter_and_sort": "Φιλτράρισμα και ταξινόμηση",
       "filter_by_label": "Φιλτράρισμα:",
@@ -169,7 +180,10 @@
       "sort_button": "Ταξινόμηση",
       "sort_by_label": "Ταξινόμηση κατά:",
       "to": "Έως",
-      "clear_filter": "Διαγραφή φίλτρου"
+      "clear_filter": "Κατάργηση φίλτρου",
+      "filter_selected_accessibility": "{{ type }} (επιλέχθηκαν {{ count }} φίλτρα)",
+      "show_more": "Εμφάνιση περισσότερων",
+      "show_less": "Εμφάνιση λιγότερων"
     }
   },
   "templates": {
@@ -199,7 +213,8 @@
         "comment": "Σχόλιο",
         "send": "Αποστολή",
         "post_success": "Ευχαριστούμε που επικοινωνήσατε μαζί μας. Θα σας απαντήσουμε το συντομότερο δυνατόν.",
-        "error_heading": "Προσαρμόστε τα παρακάτω:"
+        "error_heading": "Προσαρμόστε τα παρακάτω:",
+        "title": "Φόρμα επικοινωνίας"
       }
     },
     "404": {
@@ -235,7 +250,8 @@
         "product": "Προϊόν",
         "price": "Τιμή",
         "total": "Σύνολο",
-        "quantity": "Ποσότητα"
+        "quantity": "Ποσότητα",
+        "image": "Εικόνα προϊόντος"
       },
       "update": "Ενημέρωση",
       "login": {
@@ -261,10 +277,22 @@
     "collection_template": {
       "title": "Συλλογή",
       "empty": "Δεν βρέθηκαν προϊόντα",
-      "use_fewer_filters_html": "Χρησιμοποιήστε λιγότερα φίλτρα ή <a class=\"{{ class }}\" href=\"{{ link }}\">διαγράψτε τα όλα</a>"
+      "use_fewer_filters_html": "Χρησιμοποιήστε λιγότερα φίλτρα ή <a class=\"{{ class }}\" href=\"{{ link }}\">καταργήστε τα όλα</a>"
     },
     "video": {
       "load_video": "Φόρτωση βίντεο: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Φόρτωση διαφάνειας",
+      "previous_slideshow": "Προηγούμενη διαφάνεια",
+      "next_slideshow": "Επόμενη διαφάνεια",
+      "pause_slideshow": "Παύση παρουσίασης",
+      "play_slideshow": "Αναπαραγωγή παρουσίασης",
+      "carousel": "Καρουζέλ",
+      "slide": "Διαφάνεια"
+    },
+    "page": {
+      "title": "Τίτλος σελίδας"
     }
   },
   "localization": {
@@ -351,7 +379,7 @@
     },
     "reset_password": {
       "title": "Επαναφορά κωδικού πρόσβασης λογαριασμού",
-      "subtext": "Εισαγάγετε νέο κωδικό πρόσβασης για το {{ email }}",
+      "subtext": "Εισαγάγετε νέο κωδικό πρόσβασης",
       "password": "Κωδικός πρόσβασης",
       "password_confirm": "Επιβεβαίωση κωδικού πρόσβασης",
       "submit": "Επαναφορά κωδικού πρόσβασης"
@@ -378,7 +406,8 @@
       "tracking_url": "Σύνδεσμος παρακολούθησης",
       "tracking_company": "Εταιρεία ταχυμεταφοράς",
       "tracking_number": "Αριθμός παρακολούθησης",
-      "subtotal": "Υποσύνολο"
+      "subtotal": "Υποσύνολο",
+      "total_duties": "Δασμοί"
     }
   },
   "gift_cards": {

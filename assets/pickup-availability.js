@@ -57,7 +57,8 @@ if (!customElements.get('pickup-availability')) {
 
       document.body.appendChild(sectionInnerHTML.querySelector('pickup-availability-drawer'));
 
-      this.querySelector('button').addEventListener('click', (evt) => {
+      const button = this.querySelector('button');
+      if (button) button.addEventListener('click', (evt) => {
         document.querySelector('pickup-availability-drawer').show(evt.target);
       });
     }
@@ -75,7 +76,7 @@ if (!customElements.get('pickup-availability-drawer')) {
         this.hide();
       });
 
-      this.addEventListener('keyup', () => {
+      this.addEventListener('keyup', (event) => {
         if(event.code.toUpperCase() === 'ESCAPE') this.hide();
       });
     }

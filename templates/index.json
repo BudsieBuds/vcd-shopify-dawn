@@ -1,156 +1,211 @@
 {
   "sections": {
-    "1638111072f703491e": {
-      "type": "image-banner",
-      "blocks": {
-        "1638111072e708a8b1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Welkom!",
-            "heading_size": "medium"
-          }
-        },
-        "1638111072e708a8b1-1": {
-          "type": "text",
-          "settings": {
-            "text": "Momenteel zijn we hard bezig om onze webshop te vullen:) Wel kun je natuurlijk een bestelling plaatsen, dit kun je doen door een mailtje te sturen aan info@visserchocoladedeurne.nl. Wij kunnen je dan voorzien van foto's, allergeneninformatie en voorraad zodat je toch online kunt shoppen!  Tot snel :)"
-          }
-        }
-      },
-      "block_order": [
-        "1638111072e708a8b1-0",
-        "1638111072e708a8b1-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/gift-card.jpg",
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "accent-2",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Huidige openingstijden",
-            "heading_size": "medium"
+            "heading": "Image banner",
+            "heading_size": "h0"
           }
         },
-        "69d5a284-a558-420f-891c-6892b6308619": {
+        "text": {
           "type": "text",
           "settings": {
-            "text": "Dinsdag 12.00 - 18.00 uur, Woensdag 12.00 - 17.00 uur, Donderdag 12.00 - 18.00 uur, Vrijdag 12.00 - 18.00 uur, zaterdag 12.00 - 17.00 uur."
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
-        "69d5a284-a558-420f-891c-6892b6308619"
+        "text",
+        "button"
       ],
       "settings": {
-        "image_height": "small",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
-        "image_overlay_opacity": 100,
-        "color_scheme": "accent-2",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
-    "16354709973c1e6d0d": {
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Sinterklaas Chocoladeletters",
-        "collection": "sinterklaas-chocolade",
-        "products_to_show": 24,
-        "show_view_all": true,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
         "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": true,
-        "show_rating": false
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
-    "1640111676d0f53f5e": {
-      "type": "featured-blog",
-      "disabled": true,
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
       "settings": {
-        "heading": "Blog posts",
-        "blog": "",
-        "post_limit": 3,
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "soft_background": false,
-        "show_view_all": true
+        "heading": "Multimedia collage",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "16401121200732b853": {
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "heading_size": "h1",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
       "type": "multicolumn",
       "blocks": {
-        "16401121204eea315f-0": {
+        "column1": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Voorzorgsmaatregelen",
-            "text": "<p>Omdat we een klein winkeltje hebben mogen we momenteel helaas maar <span style=\"text-decoration:underline\"><strong>1 klant per keer<\/strong><\/span> in de winkel verwelkomen<br\/>• Draag een <span style=\"text-decoration:underline\"><strong>mondkapje<\/strong><\/span> zoals voorgeschreven<br\/>• Houd <span style=\"text-decoration:underline\"><strong>1,5 meter afstand<\/strong><\/span> tot elkaar, ook buiten<\/p>",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "16401121204eea315f-1": {
+        "column2": {
           "type": "column",
           "settings": {
-            "title": "Openingstijden",
-            "text": "<p>Dinsdag 13.00 - 17.00 uur.<br\/>Woensdag 10.00 - 17.00 uur.<br\/>Donderdag 10.00 - 17.00 uur.<br\/>Vrijdag 10.00 - 17.00 uur.<br\/>Zaterdag 10.00 - 17.00 uur.<\/p><p><\/p>",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "16401121204eea315f-2": {
+        "column3": {
           "type": "column",
           "settings": {
-            "title": "Shop Smart",
-            "text": "<p>Kleine of grote bestelling klaar laten zetten? <br\/>Stuur een mailtje met je wensen, vragen, allergieën en  voorkeuren voor uw bonbons of chocolade naar info@visserchocoladedeurne.nl wij zullen ons uiterste best doen om aan uw wensen te voldoen.<\/p>",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "16401121204eea315f-0",
-        "16401121204eea315f-1",
-        "16401121204eea315f-2"
+        "column1",
+        "column2",
+        "column3"
       ],
       "settings": {
         "title": "",
-        "image_width": "full",
+        "heading_size": "h1",
+        "image_width": "third",
         "image_ratio": "adapt",
+        "columns_desktop": 3,
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "1638111072f703491e",
     "image_banner",
-    "16354709973c1e6d0d",
-    "1640111676d0f53f5e",
-    "16401121200732b853"
+    "rich_text",
+    "featured_collection",
+    "collage",
+    "video",
+    "multicolumn"
   ]
 }
