@@ -123,6 +123,8 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/logo-visser-chocolade-deurne.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
+    "checkout_accent_color": "#43727c",
+    "checkout_button_color": "#43727c",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
