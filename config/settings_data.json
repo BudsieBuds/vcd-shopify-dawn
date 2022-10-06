@@ -106,9 +106,9 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/facebook.com\/visserchocoladedeurne",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/instagram.com\/visserchocoladedeurne",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -124,6 +124,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "LET OP: de Sinterklaas letters kunnen nog tot 28 november 15.00 uur besteld worden. Dan hebben de hulppieten nog tijd genoeg om deze voor je in te pakken.",
               "text_alignment": "center",
@@ -142,9 +143,10 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 90,
-          "logo_position": "middle-left",
-          "menu": "main-menu",
+          "logo": "shopify:\/\/shop_images\/logo-visser-chocolade-deurne.png",
+          "logo_width": 100,
+          "logo_position": "middle-center",
+          "menu": "",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
