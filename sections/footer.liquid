@@ -90,6 +90,8 @@
                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                     {%- endif -%}
                   </div>
+                {% when 'custom_liquid' %}
+                  {{block.settings.custom_liquid}}
                 {%- endcase -%}
             </div>
           {%- endfor -%}
@@ -468,6 +470,24 @@
             }
           ],
           "default": "center"
+        }
+      ]
+    },
+    {
+      "type": "custom_liquid",
+      "name": "custom liquid",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Custom Liquid",
+          "label": "t:sections.footer.blocks.text.settings.heading.label"
+        },
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "t:sections.custom-liquid.settings.custom_liquid.label",
+          "info": "t:sections.custom-liquid.settings.custom_liquid.info"
         }
       ]
     }
