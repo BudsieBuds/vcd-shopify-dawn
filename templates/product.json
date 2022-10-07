@@ -36,7 +36,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Gewicht",
-            "icon": "leather",
+            "icon": "weight",
             "content": "<p>{{ product.metafields.field.weight | metafield_tag }}<\/p>",
             "page": ""
           }
@@ -45,7 +45,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Allergenen",
-            "icon": "apple",
+            "icon": "allergens",
             "content": "<p>{{ product.metafields.field.allergens | metafield_tag }}<\/p>",
             "page": ""
           }
@@ -54,7 +54,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Ingrediënten",
-            "icon": "return",
+            "icon": "ingredients",
             "content": "<p>{{ product.metafields.field.ingredients.value }}<\/p>",
             "page": ""
           }
