@@ -166,11 +166,11 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
+          "b4861f6a-51e5-4818-a22f-79c7e97e20ec": {
+            "type": "custom_liquid",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "Openingstijden",
+              "custom_liquid": "<table style=\"font-size: inherit; box-shadow: none;\"><tbody><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">maandag<\/td>\n<td style=\"border: 0; padding: 0;\">gesloten<\/td>\n<\/tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">dinsdag<\/td>\n<td style=\"border: 0; padding: 0;\">13.00 tot 17.00<\/td>\n<\/tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">woensdag<\/td>\n<td style=\"border: 0; padding: 0;\">10.00 tot 17.00<\/td>\n<\/tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">donderdag<\/td>\n<td style=\"border: 0; padding: 0;\">10.00 tot 17.00<\/td>\n<\/tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">vrijdag<\/td>\n<td style=\"border: 0; padding: 0;\">10.00 tot 17.00<\/td>\n<\/tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">zaterdag<\/td>\n<td style=\"border: 0; padding: 0;\">10.00 tot 17.00<\/td>\n<\/tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">zondag<\/td>\n<td style=\"border: 0; padding: 0;\">12.00 tot 17.00<\/td>\n<\/tr><\/tbody><\/table>"
             }
           },
           "footer-2": {
@@ -180,18 +180,18 @@
               "subtext": "<p>Stationsstraat 6<br\/>5751 HE, Deurne<br\/>Noord-Brabant<br\/>Nederland<\/p>"
             }
           },
-          "footer-1": {
-            "type": "link_list",
+          "d391752a-4cf8-4921-8d1a-24ae2d101351": {
+            "type": "custom_liquid",
             "settings": {
-              "heading": "Info",
-              "menu": "footer"
+              "heading": "Contact",
+              "custom_liquid": "<ul class=\"footer-block__details-content list-unstyled\" style=\"padding-left: 0;\">\n    <li>\n      <a href=\"tel:+31493311551\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\" title=\"Geef ons een belletje\">\n        <span class=\"list-social__item icon\">{%- render 'icon-tel' -%}<\/span><span>&nbsp;0493 311 551<\/span>\n      <\/a>\n    <\/li>\n    <li>\n      <a href=\"mailto:info@visserchocoladedeurne.nl\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\" title=\"Stuur ons een e-mail\">\n        <span class=\"list-social__item icon\">{%- render 'icon-mail' -%}<\/span><span>&nbsp;info@visserchocoladedeurne.nl<\/span>\n      <\/a>\n    <\/li>\n    {%- if settings.social_twitter_link != blank -%}\n    <li>\n      <a href=\"{{ settings.social_twitter_link }}\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\">\n        <span class=\"list-social__item icon\">{%- render 'icon-twitter' -%}<\/span><span>&nbsp;{{- 'general.social.links.twitter' | t -}}<\/span>\n      <\/a>\n    <\/li>\n    {%- endif -%}\n    {%- if settings.social_facebook_link != blank -%}\n    <li>\n      <a href=\"{{ settings.social_facebook_link }}\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\">\n        <span class=\"list-social__item icon\">{%- render 'icon-facebook' -%}<\/span><span>&nbsp;{{- 'general.social.links.facebook' | t -}}<\/span>\n      <\/a>\n    <\/li>\n    {%- endif -%}\n    {%- if settings.social_pinterest_link != blank -%}\n    <li>\n      <a href=\"{{ settings.social_pinterest_link }}\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\">\n        <span class=\"list-social__item icon\">{%- render 'icon-pinterest' -%}<\/span><span>&nbsp;{{- 'general.social.links.pinterest' | t -}}<\/span>\n      <\/a>\n    <\/li>\n    {%- endif -%}\n    {%- if settings.social_instagram_link != blank -%}\n    <li>\n      <a href=\"{{ settings.social_instagram_link }}\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\">\n        <span class=\"list-social__item icon\">{%- render 'icon-instagram' -%}<\/span><span>&nbsp;{{- 'general.social.links.instagram' | t -}}<\/span>\n      <\/a>\n    <\/li>\n    {%- endif -%}\n    {%- if settings.social_tiktok_link != blank -%}\n    <li>\n      <a href=\"{{ settings.social_tiktok_link }}\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\">\n        <span class=\"list-social__item icon\">{%- render 'icon-tiktok' -%}<\/span><span>&nbsp;{{- 'general.social.links.tiktok' | t -}}<\/span>\n      <\/a>\n    <\/li>\n    {%- endif -%}\n    {%- if settings.social_tumblr_link != blank -%}\n    <li>\n      <a href=\"{{ settings.social_tumblr_link }}\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\">\n        <span class=\"list-social__item icon\">{%- render 'icon-tumblr' -%}<\/span><span>&nbsp;{{- 'general.social.links.tumblr' | t -}}<\/span>\n      <\/a>\n    <\/li>\n    {%- endif -%}\n    {%- if settings.social_snapchat_link != blank -%}\n    <li>\n      <a href=\"{{ settings.social_snapchat_link }}\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\">\n        <span class=\"list-social__item icon\">{%- render 'icon-snapchat' -%}<\/span><span>&nbsp;{{- 'general.social.links.snapchat' | t -}}<\/span>\n      <\/a>\n    <\/li>\n    {%- endif -%}\n    {%- if settings.social_youtube_link != blank -%}\n    <li>\n      <a href=\"{{ settings.social_youtube_link }}\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\">\n        <span class=\"list-social__item icon\">{%- render 'icon-youtube' -%}<\/span><span>&nbsp;{{- 'general.social.links.youtube' | t -}}<\/span>\n      <\/a>\n    <\/li>\n    {%- endif -%}\n    {%- if settings.social_vimeo_link != blank -%}\n    <li>\n      <a href=\"{{ settings.social_vimeo_link }}\" class=\"link link--text list-menu__item list-menu__item--link\" style=\"font-size: 1.6rem;\">\n        <span class=\"list-social__item icon\">{%- render 'icon-vimeo' -%}<\/span><span>&nbsp;{{- 'general.social.links.vimeo' | t -}}<\/span>\n      <\/a>\n    <\/li>\n    {%- endif -%}\n<\/ul>"
             }
           }
         },
         "block_order": [
-          "footer-0",
+          "b4861f6a-51e5-4818-a22f-79c7e97e20ec",
           "footer-2",
-          "footer-1"
+          "d391752a-4cf8-4921-8d1a-24ae2d101351"
         ],
         "settings": {
           "color_scheme": "accent-1",
