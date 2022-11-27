@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Click & Collect",
+            "heading": "Letters bestellen kan helaas niet meer...",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "We hebben een ruime keuze aan (h)eerlijke en luxe chocoladeletters. Deze kunnen besteld worden via ons click & collect systeem. Het werkt heel simpel: kies je favoriete letters en smaken, betaal gemakkelijk en veilig online, je ontvangt bericht wanneer de bestelling klaar ligt om opgehaald te worden en smullen maar!",
+            "text": "Gelukkig hebben we in de winkel nog een voorraadje S-letters in meer dan 17 verschillende smaken! Let op: OP=OP!",
             "text_style": "body"
           }
         }
@@ -42,7 +42,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Tijdens het selecteren van de chocoladeletters voor Sinterklaas zijn er een aantal mogelijkheden. Veel van onze letters zijn verkrijgbaar van A tot en met Z, sommige enkel als de letter S. De grote letters zitten in een luxe letterdoos met keuze uit een sierlint of volledig ingepakt met cadeaupapier. Ons kleine winkeltje heeft niet alle combinaties van letters en smaken op voorraad, bestel op tijd zodat de jute zak goed gevuld is.<br\/><\/p>"
+            "text": "<p>Onze hulppieten maken plaats voor onze kerstelfjes. De laatste Sinterklaas bestellingen worden voorbereidt en achter de schermen zijn wij bezig om ons winkeltje en  de webshop om te toveren tot een chocolade wonderland.<\/p>"
           }
         }
       },
@@ -60,6 +60,7 @@
     },
     "53a4c941-333d-406f-bd1c-9cf9398bf145": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15344092774636__53a4c941-333d-406f-bd1c-9cf9398bf145-16651284477e90d1c4-1": {
           "type": "text",
@@ -82,6 +83,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Sinterklaas Chocoladeletters",
         "heading_size": "h2",
