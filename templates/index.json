@@ -90,7 +90,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "sinterklaas-chocolade",
+        "collection": "sinterklaas",
         "products_to_show": 24,
         "columns_desktop": 4,
         "full_width": false,
