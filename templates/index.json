@@ -6,14 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Letters bestellen kan helaas niet meer...",
+            "heading": "All I want for Christmas...",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Gelukkig hebben we in de winkel nog een voorraadje S-letters in meer dan 17 verschillende smaken! Let op: OP=OP!",
+            "text": "Onze hulppieten maken plaats voor onze kerstelfjes. De laatste Sinterklaas bestellingen worden voorbereidt en achter de schermen zijn wij bezig om ons winkeltje en  de webshop om te toveren tot een chocolade wonderland.",
             "text_style": "body"
           }
         }
@@ -23,7 +23,7 @@
         "text"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-sinterklaas.jpg",
+        "image": "shopify:\/\/shop_images\/Background.jpg",
         "image_overlay_opacity": 20,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -36,63 +36,17 @@
         "show_text_below": true
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Onze hulppieten maken plaats voor onze kerstelfjes. De laatste Sinterklaas bestellingen worden voorbereidt en achter de schermen zijn wij bezig om ons winkeltje en  de webshop om te toveren tot een chocolade wonderland.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "53a4c941-333d-406f-bd1c-9cf9398bf145": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--15344092774636__53a4c941-333d-406f-bd1c-9cf9398bf145-16651284477e90d1c4-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><span style=\"text-decoration:underline\"><strong>LET OP!!<\/strong><\/span><br\/>Je kunt tot zondagmiddag 27 november 17.00 uur je letters bestellen.<br\/>Je bestellling ligt dan a.s. vrijdag 2 december klaar in de winkel om opgehaald te worden.<\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15344092774636__53a4c941-333d-406f-bd1c-9cf9398bf145-16651284477e90d1c4-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Sinterklaas Chocoladeletters",
+        "title": "Heerlijke chocolade voor de kerst...",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "sinterklaas",
-        "products_to_show": 24,
-        "columns_desktop": 4,
+        "collection": "kerstmis",
+        "products_to_show": 10,
+        "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -112,8 +66,6 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
-    "53a4c941-333d-406f-bd1c-9cf9398bf145",
     "featured_collection"
   ]
 }
