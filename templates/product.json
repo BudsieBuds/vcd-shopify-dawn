@@ -3,23 +3,17 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "3b095f2b-0a8e-4d96-a82e-81225be34844": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product__title\" {{ block.shopify_attributes }}>\n  <h1>{{ product.title | escape }} {{ product.metafields.descriptors.subtitle.value }}<\/h1>\n  <a href=\"{{ product.url }}\" class=\"product__title\">\n    <h2 class=\"h1\">\n      {{ product.title | escape }} {{ product.metafields.descriptors.subtitle.value }}\n    <\/h2>\n  <\/a>\n<\/div>"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
           }
         },
         "price": {
@@ -84,9 +78,8 @@
         }
       },
       "block_order": [
+        "3b095f2b-0a8e-4d96-a82e-81225be34844",
         "vendor",
-        "title",
-        "caption",
         "price",
         "description",
         "collapsible-row-0",
