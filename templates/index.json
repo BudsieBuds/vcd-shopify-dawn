@@ -36,6 +36,43 @@
         "show_text_below": true
       }
     },
+    "e4154027-b7d4-4ff2-9184-e7feb41e9e6f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15344092774636__e4154027-b7d4-4ff2-9184-e7feb41e9e6f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Letters bestellen kan helaas niet meer...",
+            "heading_size": "h1"
+          }
+        },
+        "template--15344092774636__e4154027-b7d4-4ff2-9184-e7feb41e9e6f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Gelukkig hebben we in de winkel nog een voorraadje S-letters in meer dan 17 verschillende smaken! Let op: OP=OP! Onze hulppieten en kerstelfjes zijn achter de schermen hard bezig om ons winkeltje en de webshop om te toveren tot een waar chocolade winter wonderland, stay tuned ;)",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15344092774636__e4154027-b7d4-4ff2-9184-e7feb41e9e6f-heading-1",
+        "template--15344092774636__e4154027-b7d4-4ff2-9184-e7feb41e9e6f-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-sinterklaas.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -134,6 +171,7 @@
   },
   "order": [
     "image_banner",
+    "e4154027-b7d4-4ff2-9184-e7feb41e9e6f",
     "rich_text",
     "53a4c941-333d-406f-bd1c-9cf9398bf145",
     "fced5479-fe83-40dd-9fb1-f06d1f5b5a66",
