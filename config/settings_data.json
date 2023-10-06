@@ -120,7 +120,7 @@
     "favicon": "shopify:\/\/shop_images\/favicon.png",
     "currency_code_enabled": false,
     "show_vendor": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/logo-visser-chocolade-deurne.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo-visser-chocolade-deurne.svg",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_accent_color": "#43727c",
