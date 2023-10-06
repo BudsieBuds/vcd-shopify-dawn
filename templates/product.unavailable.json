@@ -16,11 +16,6 @@
             "text_style": "uppercase"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -52,43 +47,15 @@
             "content": "<p>{{ product.metafields.field.ingredients.value }}<\/p>",
             "page": ""
           }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Delen"
-          }
         }
       },
       "block_order": [
         "3b095f2b-0a8e-4d96-a82e-81225be34844",
         "vendor",
-        "price",
         "description",
         "collapsible-row-0",
         "collapsible-row-2",
-        "collapsible-row-1",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
-        "share"
+        "collapsible-row-1"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -100,33 +67,6 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
-      }
-    },
-    "82a3b45d-2c83-4f1e-8e0d-1f793b744044": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Meer smaken",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "bonbons",
-        "products_to_show": 10,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": true,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "product-recommendations": {
@@ -150,7 +90,6 @@
   },
   "order": [
     "main",
-    "82a3b45d-2c83-4f1e-8e0d-1f793b744044",
     "product-recommendations"
   ]
 }

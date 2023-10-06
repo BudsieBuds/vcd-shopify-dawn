@@ -26,33 +26,6 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Gewicht",
-            "icon": "weight",
-            "content": "<p>{{ product.metafields.field.weight | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Allergenen",
-            "icon": "allergens",
-            "content": "<p>{{ product.metafields.field.allergens | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Ingrediënten",
-            "icon": "ingredients",
-            "content": "<p>{{ product.metafields.field.ingredients.value }}<\/p>",
-            "page": ""
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -82,9 +55,6 @@
         "vendor",
         "price",
         "description",
-        "collapsible-row-0",
-        "collapsible-row-2",
-        "collapsible-row-1",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -110,7 +80,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "bonbons",
+        "collection": "koffiebonen",
         "products_to_show": 10,
         "columns_desktop": 5,
         "full_width": false,
