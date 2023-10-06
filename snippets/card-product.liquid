@@ -277,9 +277,7 @@
                     name="id"
                     value="{{ card_product.selected_or_first_available_variant.id }}"
                     class="product-variant-id"
-                    {% if card_product.selected_or_first_available_variant.available == false %}
-                      disabled
-                    {% endif %}
+                    disabled
                   >
                   <button
                     id="{{ product_form_id }}-submit"
