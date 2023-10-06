@@ -23,7 +23,7 @@
         "text"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Background.jpg",
+        "image": "shopify:\/\/shop_images\/banner-sinterklaas.jpg",
         "image_overlay_opacity": 20,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -39,13 +39,13 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Heerlijke chocolade voor de kerst...",
+        "title": "Chocolade letters",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "kerstmis",
-        "products_to_show": 10,
+        "collection": "sinterklaas",
+        "products_to_show": 24,
         "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
