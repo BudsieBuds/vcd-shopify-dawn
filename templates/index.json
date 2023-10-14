@@ -101,14 +101,13 @@
         "template--15344092774636__53a4c941-333d-406f-bd1c-9cf9398bf145-16651284477e90d1c4-1": {
           "type": "text",
           "settings": {
-            "text": "<p><span style=\"text-decoration:underline\"><strong>BESTELTIP:<\/strong><\/span><br\/>Alle letters worden op bestelling gemaakt en één keer per week aan ons uitgeleverd. Om zeker te zijn van uw letters op 5 december raden we aan <span style=\"text-decoration:underline\">uiterlijk zaterdag 19 november te bestellen<\/span>. Bestellingen gedaan voor zaterdagmiddag zijn doorgaans op de vrijdag daarop af te halen in de winkel. <br\/>U ontvang bericht wanneer uw bestelling klaar ligt.<\/p>"
+            "text": "<p><strong>BESTELTIP:<\/strong><br\/>Alle letters worden op bestelling gemaakt en één keer per week aan ons uitgeleverd. Om zeker te zijn van jouw letters op 5 december raden we aan <span style=\"text-decoration:underline\">uiterlijk zaterdag 18 november te bestellen<\/span>. Bestellingen gedaan voor zaterdagmiddag zijn doorgaans op de volgende vrijdag af te halen in de winkel.<br\/>Je ontvangt bericht wanneer de bestelling klaar ligt.<\/p>"
           }
         }
       },
       "block_order": [
         "template--15344092774636__53a4c941-333d-406f-bd1c-9cf9398bf145-16651284477e90d1c4-1"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
