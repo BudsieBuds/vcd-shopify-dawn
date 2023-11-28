@@ -1,41 +1,5 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Click & Collect",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "We hebben een ruime keuze aan (h)eerlijke en luxe chocoladeletters. Deze kunnen besteld worden via ons click & collect systeem. Het werkt heel simpel: kies je favoriete letters en smaken, betaal gemakkelijk en veilig online, je ontvangt bericht wanneer de bestelling klaar ligt om opgehaald te worden en smullen maar!",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/banner-sinterklaas.jpg",
-        "image_overlay_opacity": 20,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
     "e4154027-b7d4-4ff2-9184-e7feb41e9e6f": {
       "type": "image-banner",
       "blocks": {
@@ -49,7 +13,7 @@
         "template--15344092774636__e4154027-b7d4-4ff2-9184-e7feb41e9e6f-text-1": {
           "type": "text",
           "settings": {
-            "text": "Gelukkig hebben we in de winkel nog een voorraadje S-letters in meer dan 17 verschillende smaken! Let op: OP=OP! Onze hulppieten en kerstelfjes zijn achter de schermen hard bezig om ons winkeltje en de webshop om te toveren tot een waar chocolade winter wonderland, stay tuned ;)",
+            "text": "Gelukkig hebben we in de winkel nog een voorraad S-letters.",
             "text_style": "body"
           }
         }
@@ -58,7 +22,6 @@
         "template--15344092774636__e4154027-b7d4-4ff2-9184-e7feb41e9e6f-heading-1",
         "template--15344092774636__e4154027-b7d4-4ff2-9184-e7feb41e9e6f-text-1"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-sinterklaas.jpg",
         "image_overlay_opacity": 0,
@@ -70,6 +33,43 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "add60968-35d2-4f6e-ac70-931ed77a1a88": {
+      "type": "image-banner",
+      "blocks": {
+        "c2d5bef3-654c-43f7-9bd8-f21425a766ae": {
+          "type": "heading",
+          "settings": {
+            "heading": "Click & collect",
+            "heading_size": "h1"
+          }
+        },
+        "89071238-5bd4-4a6a-aeae-2c9b845f4319": {
+          "type": "text",
+          "settings": {
+            "text": "We hebben een ruime keuze aan (h)eerlijke en luxe chocoladeletters. Deze kunnen besteld worden via ons click & collect systeem. Het werkt heel simpel: kies je favoriete letters en smaken, betaal gemakkelijk en veilig online, je ontvangt bericht wanneer de bestelling klaar ligt om opgehaald te worden en smullen maar!",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "c2d5bef3-654c-43f7-9bd8-f21425a766ae",
+        "89071238-5bd4-4a6a-aeae-2c9b845f4319"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-sinterklaas.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
         "show_text_below": true
       }
     },
@@ -86,6 +86,7 @@
       "block_order": [
         "text"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -108,6 +109,7 @@
       "block_order": [
         "template--15344092774636__53a4c941-333d-406f-bd1c-9cf9398bf145-16651284477e90d1c4-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -142,6 +144,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Sinterklaas Chocoladeletters",
         "heading_size": "h2",
@@ -169,8 +172,8 @@
     }
   },
   "order": [
-    "image_banner",
     "e4154027-b7d4-4ff2-9184-e7feb41e9e6f",
+    "add60968-35d2-4f6e-ac70-931ed77a1a88",
     "rich_text",
     "53a4c941-333d-406f-bd1c-9cf9398bf145",
     "fced5479-fe83-40dd-9fb1-f06d1f5b5a66",
