@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "e4154027-b7d4-4ff2-9184-e7feb41e9e6f": {
@@ -144,14 +153,13 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Sinterklaas Chocoladeletters",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "sinterklaas",
+        "collection": "bonbons",
         "products_to_show": 24,
         "columns_desktop": 4,
         "full_width": false,
