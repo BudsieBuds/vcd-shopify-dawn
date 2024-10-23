@@ -262,6 +262,10 @@ a.product__text {
   margin-top: -1.5rem;
 }
 
+.product__title + .product__text.subtitle {
+  margin-top: -2rem;
+}
+
 .product__text.caption-with-letter-spacing + .product__title {
   margin-top: 0;
 }
