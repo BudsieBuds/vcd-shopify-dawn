@@ -546,12 +546,12 @@
   "shopify": {
     "checkout": {
       "delivery_options": {
-        "pick_up_in_five_or_more_days": "Je ontvangt bericht wanneer je bestelling klaar ligt (5 tot 11 dagen)"
+        "pick_up_in_five_or_more_days": "Je ontvangt bericht wanneer je bestelling klaar ligt (meestal 5 tot 11 dagen)"
       }
     },
     "store_availability": {
       "pick_up_time": {
-        "five_or_more_days": "Je ontvangt bericht wanneer je bestelling klaar ligt (5 tot 11 dagen)"
+        "five_or_more_days": "Je ontvangt bericht wanneer je bestelling klaar ligt (meestal 5 tot 11 dagen)"
       }
     }
   }
