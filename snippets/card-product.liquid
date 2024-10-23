@@ -139,6 +139,14 @@
               >
                 {{- 'products.product.on_sale' | t -}}
               </span>
+            {%- elsif card_product.tags contains "winkel" -%}
+              <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">
+                Alleen in de winkel
+              </span>
+            {%- elsif card_product.tags contains "limited" -%}
+              <span id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}" class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">
+                Limited Edition
+              </span>
             {%- endif -%}
           </div>
         </div>
