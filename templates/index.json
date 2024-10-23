@@ -104,29 +104,6 @@
         "padding_bottom": 40
       }
     },
-    "rich_text_qyg7jw": {
-      "type": "rich-text",
-      "blocks": {
-        "text_ABbkiB": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>BESTELTIP:</strong><br/>Alle letters worden op bestelling gemaakt en één keer per week aan ons uitgeleverd. Om zeker te zijn van jouw letters op 5 december raden we aan <span style=\"text-decoration:underline\">uiterlijk zondag 26 november te bestellen</span>. Bestellingen zijn doorgaans op de volgende vrijdag af te halen in de winkel.<br/>Je ontvangt bericht wanneer de bestelling klaar ligt.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_ABbkiB"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "rich_text_9Y7FX9": {
       "type": "rich-text",
       "blocks": {
@@ -177,14 +154,36 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "rich_text_qyg7jw": {
+      "type": "rich-text",
+      "blocks": {
+        "text_ABbkiB": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>BESTELTIP:</strong><br/>Alle letters worden op bestelling en met de hand gemaakt. Om zeker te zijn van jouw letters op 5 december raden we aan op tijd te bestellen. Bestellingen zijn doorgaans op de volgende vrijdag af te halen in de winkel. Je ontvangt bericht wanneer de bestelling klaar ligt.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_ABbkiB"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
     "image_banner_4PUx9A",
     "image_banner",
     "rich_text_Anhtnm",
-    "rich_text_qyg7jw",
     "rich_text_9Y7FX9",
-    "featured_collection"
+    "featured_collection",
+    "rich_text_qyg7jw"
   ]
 }
