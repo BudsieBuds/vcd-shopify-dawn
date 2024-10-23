@@ -1,65 +1,66 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "image_banner_4PUx9A": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_xHnR98": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kom langs in ons winkeltje",
+            "heading_size": "h1"
+          }
+        },
+        "text_LK7RjW": {
+          "type": "text",
+          "settings": {
+            "text": "Online zijn we nog niet helemaal ingericht, maar ons winkeltje staat bomvol met (gevulde)chocolade, verse koffiebonen & heerlijk verse thee!",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xHnR98",
+        "text_LK7RjW"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Background.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Click & Collect",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "We hebben een ruime keuze aan (h)eerlijke en luxe chocoladeletters. Deze kunnen besteld worden via ons click & collect systeem. Het werkt heel simpel: kies je favoriete letters en smaken, betaal gemakkelijk en veilig online, je ontvangt bericht wanneer de bestelling klaar ligt om opgehaald te worden en smullen maar!",
             "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
@@ -68,143 +69,121 @@
         "text"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "image": "shopify://shop_images/banner-sinterklaas.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_Anhtnm": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Xe6EnQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tijdens het selecteren van de chocoladeletters voor Sinterklaas zijn er een aantal mogelijkheden. Veel van onze letters zijn verkrijgbaar van A tot en met Z, sommige enkel als de letter S. De grote letters zitten in een luxe letterdoos met keuze uit een sierlint of volledig ingepakt met cadeaupapier. Ons kleine winkeltje heeft niet alle combinaties van letters en smaken op voorraad, bestel op tijd zodat de jute zak goed gevuld is.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Xe6EnQ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_9Y7FX9": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XJx47c": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LET OP!!</strong></p><p>Je kunt tot zondagmiddag 27 november 17.00 uur je letters bestellen.Je bestelling ligt dan a.s. vrijdag 2 december klaar in de winkel om opgehaald te worden.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XJx47c"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Sinterklaas Chocoladeletters",
         "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sinterklaas",
+        "products_to_show": 25,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
+        "image_ratio": "square",
+        "image_shape": "default",
         "show_secondary_image": true,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": false,
+        "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
+    "rich_text_qyg7jw": {
+      "type": "rich-text",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "text_ABbkiB": {
+          "type": "text",
           "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
+            "text": "<p><strong>BESTELTIP:</strong><br/>Alle letters worden op bestelling en met de hand gemaakt. Om zeker te zijn van jouw letters op 5 december raden we aan op tijd te bestellen. Bestellingen zijn doorgaans op de volgende vrijdag af te halen in de winkel. Je ontvangt bericht wanneer de bestelling klaar ligt.</p>"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "text_ABbkiB"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
   "order": [
+    "image_banner_4PUx9A",
     "image_banner",
-    "rich_text",
+    "rich_text_Anhtnm",
+    "rich_text_9Y7FX9",
     "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "rich_text_qyg7jw"
   ]
 }
