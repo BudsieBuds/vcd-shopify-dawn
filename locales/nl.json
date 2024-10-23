@@ -542,5 +542,12 @@
       "expanded": "Formulier voor ontvanger cadeaubon uitgevouwen",
       "collapsed": "Formulier voor ontvanger cadeaubon ingeklapt"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "delivery_options": {
+        "pick_up_in_five_or_more_days": "Je ontvangt bericht wanneer je bestelling klaar ligt"
+      }
+    }
   }
 }
