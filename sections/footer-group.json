@@ -14,11 +14,11 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "custom_liquid_KqHi3U": {
+        "custom_liquid_yCqxE8": {
           "type": "custom_liquid",
           "settings": {
             "heading": "Openingstijden",
-            "custom_liquid": "<table style=\"font-size: inherit; box-shadow: none;\"><tbody><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">maandag</td>\n<td style=\"border: 0; padding: 0;\">gesloten</td>\n</tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">dinsdag</td>\n<td style=\"border: 0; padding: 0;\">gesloten</td>\n</tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">woensdag</td>\n<td style=\"border: 0; padding: 0;\">10.00 tot 17.00</td>\n</tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">donderdag</td>\n<td style=\"border: 0; padding: 0;\">10.00 tot 17.00</td>\n</tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">vrijdag</td>\n<td style=\"border: 0; padding: 0;\">10.00 tot 17.00</td>\n</tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">zaterdag</td>\n<td style=\"border: 0; padding: 0;\">10.00 tot 17.00</td>\n</tr><tr>\n<td style=\"border: 0; padding: 0 1em 0 0;\">zondag</td>\n<td style=\"border: 0; padding: 0;\">gesloten</td>\n</tr></tbody></table>"
+            "custom_liquid": "<table style=\"font-size: inherit; box-shadow: none;\">\n    <tbody>\n        <tr>\n            <td style=\"border: 0; padding: 0 1em 0 0;\">maandag</td>\n            <td style=\"border: 0; padding: 0;\">gesloten</td>\n        </tr>\n        <tr>\n            <td style=\"border: 0; padding: 0 1em 0 0;\">dinsdag</td>\n            <td style=\"border: 0; padding: 0;\">gesloten</td>\n        </tr>\n        <tr>\n            <td style=\"border: 0; padding: 0 1em 0 0;\">woensdag</td>\n            <td style=\"border: 0; padding: 0;\">10.00 tot 17.00</td>\n        </tr>\n        <tr>\n            <td style=\"border: 0; padding: 0 1em 0 0;\">donderdag</td>\n            <td style=\"border: 0; padding: 0;\">10.00 tot 17.00</td>\n        </tr>\n        <tr>\n            <td style=\"border: 0; padding: 0 1em 0 0;\">vrijdag</td>\n            <td style=\"border: 0; padding: 0;\">10.00 tot 17.00</td>\n        </tr>\n        <tr>\n            <td style=\"border: 0; padding: 0 1em 0 0;\">zaterdag</td>\n            <td style=\"border: 0; padding: 0;\">10.00 tot 17.00</td>\n        </tr>\n        <tr>\n            <td style=\"border: 0; padding: 0 1em 0 0;\">zondag</td>\n            <td style=\"border: 0; padding: 0;\">gesloten</td>\n        </tr>\n    </tbody>\n</table>"
           }
         },
         "footer-2": {
@@ -28,7 +28,7 @@
             "subtext": "<p>Visser Chocolade Deurne<br/>Stationsstraat 6<br/>5751 HE, Deurne<br/>Noord-Brabant<br/>Nederland</p>"
           }
         },
-        "custom_liquid_xF6bnP": {
+        "custom_liquid_CAzkjh": {
           "type": "custom_liquid",
           "settings": {
             "heading": "Contact",
@@ -37,9 +37,9 @@
         }
       },
       "block_order": [
-        "custom_liquid_KqHi3U",
+        "custom_liquid_yCqxE8",
         "footer-2",
-        "custom_liquid_xF6bnP"
+        "custom_liquid_CAzkjh"
       ],
       "settings": {
         "color_scheme": "scheme-3",
