@@ -16,9 +16,8 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "LET OP: de Sinterklaas letters kunnen nog tot 28 november 15.00 uur besteld worden. Dan hebben de hulppieten nog tijd genoeg om deze voor je in te pakken.",
+            "text": "LET OP: de Sinterklaas letters kunnen tot 24 november 18.00 uur besteld worden. Dan hebben de hulppieten tijd genoeg om deze voor je te maken en in te pakken.",
             "link": ""
           }
         }
