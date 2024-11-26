@@ -68,6 +68,43 @@
         "heading",
         "text"
       ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/banner-sinterklaas.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_MBQPGj": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_taDzFE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Alleen nog in ons winkeltje",
+            "heading_size": "h1"
+          }
+        },
+        "text_f3QTzG": {
+          "type": "text",
+          "settings": {
+            "text": "We hebben nog een selectie aan (h)eerlijke en luxe chocoladeletters in ons winkeltje. Helaas is online bestellen niet meer mogelijk, omdat de hulppieten dan niet genoeg tijd hebben om de letters te maken. Ons assortiment is hier nog steeds te bekijken.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_taDzFE",
+        "text_f3QTzG"
+      ],
       "settings": {
         "image": "shopify://shop_images/banner-sinterklaas.jpg",
         "image_overlay_opacity": 30,
@@ -95,6 +132,7 @@
       "block_order": [
         "text_Xe6EnQ"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -117,6 +155,7 @@
       "block_order": [
         "text_ABbkiB"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -181,6 +220,7 @@
   "order": [
     "image_banner_4PUx9A",
     "image_banner",
+    "image_banner_MBQPGj",
     "rich_text_Anhtnm",
     "rich_text_qyg7jw",
     "rich_text_9Y7FX9",
