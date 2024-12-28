@@ -31,7 +31,6 @@
         "heading_xHnR98",
         "text_LK7RjW"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Background.jpg",
         "image_overlay_opacity": 30,
@@ -105,6 +104,7 @@
         "heading_taDzFE",
         "text_f3QTzG"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/banner-sinterklaas.jpg",
         "image_overlay_opacity": 30,
@@ -190,6 +190,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Sinterklaas Chocoladeletters",
         "heading_size": "h2",
