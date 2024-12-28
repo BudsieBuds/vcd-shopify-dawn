@@ -68,7 +68,6 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
@@ -111,6 +110,7 @@
     },
     "featured_collection_Ckr3yQ": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Meer smaken",
         "heading_size": "h2",
@@ -139,9 +139,8 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
-        "heading": "You may also like",
+        "heading": "Meer suggesties",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
