@@ -139,6 +139,9 @@
     },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        ".card-information {display: none;}"
+      ],
       "settings": {
         "heading": "Meer suggesties",
         "heading_size": "h2",
