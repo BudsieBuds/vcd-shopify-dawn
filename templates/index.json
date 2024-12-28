@@ -223,26 +223,47 @@
         "featured_collection_KcK8KB": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "bonbons"
           }
         },
         "featured_collection_fjiMqm": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "choco-snacks"
           }
         },
         "featured_collection_hLkHB8": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "cadeaus"
+          }
+        },
+        "featured_collection_afLmxq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "koffiebonen"
+          }
+        },
+        "featured_collection_dQX78M": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chocoladerepen"
+          }
+        },
+        "featured_collection_rriCEp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wensplaten-en-champagneflessen"
           }
         }
       },
       "block_order": [
         "featured_collection_KcK8KB",
         "featured_collection_fjiMqm",
-        "featured_collection_hLkHB8"
+        "featured_collection_hLkHB8",
+        "featured_collection_afLmxq",
+        "featured_collection_dQX78M",
+        "featured_collection_rriCEp"
       ],
       "settings": {
         "title": "Product impressies",
